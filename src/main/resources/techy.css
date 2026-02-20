@@ -1,0 +1,58 @@
+.root { 
+    -fx-base: #0b1724; 
+    -fx-background-color: linear-gradient(to bottom right, #07203a, #0b2e4a); 
+    -fx-font-family: "Segoe UI", Roboto, Arial; 
+} 
+.background { 
+    -fx-background-color: linear-gradient(to bottom right, #041428, #0b3a5a); 
+    -fx-padding: 10; 
+    -fx-border-radius: 12; 
+} 
+.glass-card { 
+    -fx-background-color: rgba(255,255,255,0.04); 
+    -fx-padding: 16; 
+    -fx-border-radius: 12; 
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10,0,0,2); 
+} 
+.heading { 
+    -fx-font-size: 20px; 
+    -fx-font-weight: bold; 
+    -fx-text-fill: white; 
+} 
+.primary-btn { 
+    -fx-background-color: linear-gradient(#1e90ff, #0066cc); 
+    -fx-text-fill: white; 
+    -fx-font-weight: bold; 
+    -fx-padding: 8 16 8 16; 
+    -fx-border-radius: 8; 
+} 
+.secondary-btn { 
+    -fx-background-color: linear-gradient(#94b8ff, #6b9eff); 
+    -fx-text-fill: #022; 
+    -fx-font-weight: bold; 
+    -fx-padding: 6 12 6 12; 
+    -fx-border-radius: 8; 
+} 
+.danger-btn { 
+    -fx-background-color: linear-gradient(#ff7b7b, #ff4d4d); 
+    -fx-text-fill: white; 
+    -fx-font-weight: bold; 
+    -fx-padding: 6 12 6 12; 
+    -fx-border-radius: 8; 
+} 
+.top-right-name { 
+    -fx-font-size: 15px; 
+    -fx-text-fill: white; 
+    -fx-font-weight: bold; 
+    -fx-padding: 0 10 0 0; 
+} 
+.label { 
+    -fx-text-fill: white; 
+} 
+.text-field, .password-field { 
+    -fx-background-color: rgba(255,255,255,0.06); 
+    -fx-text-fill: white; 
+-fx-prompt-text-fill: rgba(255,255,255,0.5); -fx-border-radius: 6; -fx-padding: 6; 
+} 
+.list-view { -fx-background-color: rgba(255,255,255,0.03); -fx-border-radius: 8; -fx-padding: 6; 
+}
